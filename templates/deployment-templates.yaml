@@ -258,7 +258,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: openjdk-11-rhel8:latest
+          name: openjdk-11-rhel8:1.0
           namespace: openshift
         env:
         - name: MAVEN_MIRROR_URL
